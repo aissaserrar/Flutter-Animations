@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:implicit_animations/widgets/custom_drawer.dart';
 
-class HomeScreen extends StatefulWidget {
-  static final String screenID = "/";
+class DurationScreen extends StatefulWidget {
+  static final String screenID = "/DurationScreen";
 
   @override
-  _HomeScreenState createState() => _HomeScreenState();
+  _DurationScreenState createState() => _DurationScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _DurationScreenState extends State<DurationScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -16,7 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         centerTitle: true,
         title: Text(
-          'Implicit Animations',
+          'Duration',
         ),
       ),
       body: SafeArea(
